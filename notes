@@ -1,0 +1,18 @@
+Notes:
+
+Always start with a phisical sketch!
+
+Design Wireframe Tools:
+	balsamiq.com
+	framebox.org
+
+	Gtid Guides for Photosop?
+
+Bootstrap uses flex: instead of width now :D
+Bootstrap layout:
+	Container
+		Row
+			Columns -> 12 col = 100%
+
+	col-sm - for small devices, keeps it
+	col-lg - for large devices, will change the col 100% on mobile, so "large" means it's made to look good on a large screen

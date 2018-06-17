@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	padding: 0 20px;
+	color: #fff;
+	background-color: #414141;
+	text-align: center;
+	height: 2em;
+	padding-top: 0.75em;
+	margin-top: 0;
+}
+
+a{
+	color: red;
+}
+
+.imageWrapper{
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+
+.imageWrapper:hover > img{
+	outline: 2px solid #ccc;
+	outline-offset: -2px;
+	width: auto !important;
+	height: auto !important;
+}
+
+
+.bioP{
+	font-size: 15px;
+	color: #424242;
+	padding: 10px;
+}
+
+.bioP img{
+	margin-right: 20px;
+}
+
+.leftWrap img{
+	float:left;
+}
+
+
+#contacts{
+	list-style-type: square;
+}
+
+#contacts li{
+	color: #424242;
+}
+
+.leftWrap{
+	width: 50%;
+	float: left;
+}
+
+.rightWrap{
+	width: 50%;
+	float: right;
+}
+
+.container{
+	background-color: #ccc;
+	overflow: hidden;
+	margin-top: 0;
+}
